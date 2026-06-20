@@ -228,8 +228,8 @@ const lv_img_dsc_t mountain = {
     .data = mountain_map,
 };
 
-#ifndef LV_ATTRIBUTE_IMG_1BIT ARSAKA
-#define LV_ATTRIBUTE_IMG_1BIT ARSAKA
+#ifndef LV_ATTRIBUTE_IMG_1BIT_ARSAKA
+#define LV_ATTRIBUTE_IMG_1BIT_ARSAKA
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_1BIT ARSAKA uint8_t 1Bit Arsaka_map[] = {
@@ -383,7 +383,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_1BIT ARSA
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 };
 
-const lv_img_dsc_t 1Bit Arsaka = {
+const lv_img_dsc_t 1Bit_Arsaka = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
