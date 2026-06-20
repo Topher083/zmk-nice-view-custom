@@ -391,4 +391,3 @@ const lv_img_dsc_t Arasaka = {
   .header.h = 140,
   .data_size = 1268,
   .data = Arasaka_map,
-};
