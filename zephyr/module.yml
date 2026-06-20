@@ -1,4 +1,4 @@
-name: zmk-nice-view-custom
+name: zmk-component-nice_view_custom
 build:
   settings:
     board_root: .
