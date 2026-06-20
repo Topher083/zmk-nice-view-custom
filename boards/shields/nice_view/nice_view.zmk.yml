@@ -1,8 +1,8 @@
 file_format: "1"
-id: nice_view
+id: zmk-nice-view-custom
 name: nice!view
 type: shield
-url: https://nicekeyboards.com/nice-view
+url: https://github.com/Topher083
 requires: [nice_view_header]
 features:
   - display
