@@ -228,11 +228,11 @@ const lv_img_dsc_t mountain = {
     .data = mountain_map,
 };
 
-#ifndef LV_ATTRIBUTE_IMG_1BIT_ARSAKA
-#define LV_ATTRIBUTE_IMG_1BIT_ARSAKA
+#ifndef LV_ATTRIBUTE_IMG_ARSAKA
+#define LV_ATTRIBUTE_IMG_ARSAKA
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_1BIT ARSAKA uint8_t 1Bit Arsaka_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ARSAKA uint8_t img_arsaka_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
     0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
     0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
@@ -383,12 +383,12 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_1BIT ARSA
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 };
 
-const lv_img_dsc_t 1Bit_Arsaka = {
+const lv_img_dsc_t img_arsaka_map = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 68,
   .header.h = 140,
   .data_size = 1268,
-  .data = 1Bit Arsaka_map,
+  .data = img_arsaka_map,
 };
