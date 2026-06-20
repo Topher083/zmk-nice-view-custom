@@ -232,7 +232,7 @@ const lv_img_dsc_t mountain = {
 #define LV_ATTRIBUTE_IMG_ARSAKA
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ARSAKA uint8_t Arsaka_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ARSAKA uint8_t Arasaka_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
     0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
     0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
