@@ -232,7 +232,7 @@ const lv_img_dsc_t mountain = {
 #define LV_ATTRIBUTE_IMG_01
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_01 uint8_t 01_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_01 uint8_t one_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
     0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
     0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
@@ -311,7 +311,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_01 uint8_
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf0, 
 };
 
-const lv_img_dsc_t 01 = {
+const lv_img_dsc_t one = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
@@ -326,7 +326,7 @@ const lv_img_dsc_t 01 = {
 #define LV_ATTRIBUTE_IMG_02
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_02 uint8_t 02_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_02 uint8_t two_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
     0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
     0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
@@ -405,7 +405,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_02 uint8_
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf0, 
 };
 
-const lv_img_dsc_t 02 = {
+const lv_img_dsc_t two = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
